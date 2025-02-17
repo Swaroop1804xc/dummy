@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+body.dark-mode {
+    background-color: #151020;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #1d1d1e 3px solid;
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header ul {
+    padding: 0;
+    list-style: none;
+}
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #branding {
+    float: left;
+}
+header #branding h1 {
+    margin: 0;
+}
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+.content {
+    padding: 20px;
+    background: #fff;
+    margin-top: 20px;
+
+    text-align: center;
+}
+.content h2 {
+    color: #333;
+}
+.foot {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    margin-top: 20px;
+}
+
+.reach-out-btn {
+    background-color: #007bff;
+    color:white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.reach-out-btn:hover {
+    background-color: #050a0f;
+}
+#myCarousel {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.row {
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+    justify-content: center;
+    align-items: center;
+}
+.btn btn-primary {
+    text-align: center;
+    justify-content: center;
+}
+.card-body {
+    justify-content: center;
+}
+.card-title{
+    justify-content:center ;
+    text-align: center;
+}
+.card-img-top {
+    height: 175px; /* Adjust the height as needed */
+   
+    object-fit: cover;
+}
+
+.contact-form {
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.contact-form button {
+    background: #5cb85c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background: #4cae4c;
+}
+.container h2 {
+    text-align: center;
+    color: #333;
+}
+
+.theme-toggle {
+    background-color: #071019;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 20px 0;
+}
+.theme-toggle:hover {
+    background-color: #0056b3;
+}
+.form-group {
+    text-align: left;
+}
